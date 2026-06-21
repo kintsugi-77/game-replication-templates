@@ -36,6 +36,7 @@ behavior-first 判断(哪些只改声明 / 哪些写逻辑)
 - 真值钉进 CONFIG 段,来源见 docs/<game>-spec.md;硬真值照搬,手感值标 [FEEL] 待导演调。
 - 逻辑大了拆模块;状态机每帧 switch(phase),禁 setTimeout。
 - 代码留 // WHY: 和 // GOTCHA:。
+- 先在本地 HTML 测试页把核心逻辑/数值跑通,再推 dev(逻辑先行,少走 dev 往返)。
 - 真窗口验证过才算完——"编译过"≠"能玩"。
 
 【这次要做的】
