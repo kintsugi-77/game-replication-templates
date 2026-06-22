@@ -3,7 +3,7 @@
 一套可复用的游戏复刻模板,用于「导演 + 执行 AI(Claude Code)手写玩法逻辑」的工作流。与具体游戏无关,复刻任何游戏都可套用。
 
 ## 文件
-- **[`kickoff-template.md`](./kickoff-template.md)** — 新会话开工模板:整段复制给一个无上下文的执行 AI 会话即可开工(角色铁律 + 先读哪些文件 + 环境凭据 + 工作流程)。
+- **[`kickoff-template.md`](./kickoff-template.md)** — 开工补充信息(配 runbook 用):只补「这一个游戏要复刻什么」(原作 + 核心循环 + 灵魂系统 + 参考),流程/纪律/建工程不重述,全走 runbook。
 - **[`impl-card-template.md`](./impl-card-template.md)** — 玩法实施卡模板(导演 5 栏 + 执行 AI 回填 5 栏)+ 交活 Prompt + 里程碑拆分指引 + 小抄。
 - **[`spec-template.md`](./spec-template.md)** — 真值规格(扒真值)骨架:硬真值 / 手感值 / API 契约 / 待确认。
 
